@@ -1,3 +1,5 @@
+#include <stddef.h>
+
 char *_strncpy(char* destination, const char* source, size_t n) {
     char *start = destination;
     while (n-- && (*destination++ = *source++));

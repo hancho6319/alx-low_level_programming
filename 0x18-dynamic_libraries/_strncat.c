@@ -1,3 +1,6 @@
+#include <stddef.h>
+#include <string.h>
+
 char *_strncat(char* destination, const char* source, size_t num)
 {
     size_t destLen = strlen(destination);
