@@ -17,6 +17,9 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-	return (binary_search_index(array, 0, size - 1, value));
+	int i;
+
+	got = (binary_search_index(array, 0, size - 1, value));
+	return (got);
 }
 
