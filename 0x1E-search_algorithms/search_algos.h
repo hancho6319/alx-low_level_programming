@@ -1,7 +1,9 @@
-#ifndef _SEARCH_ALGOS_H_
-#define _SEARCH_ALGOS_H_
+#ifndef SEARCH_ALGOS_H
+#define SEARCH_ALGOS_H
 
 #include <stdio.h>
+
+/* this is the struct data-type */
 
 /**
  * struct listint_s - Singly linked list node structure.
@@ -17,9 +19,9 @@
  */
 typedef struct listint_s
 {
-    int n;               /* Integer stored at the node. */
-    size_t index;        /* Index of the node in the list. */
-    struct listint_s *next; /* Pointer to the next node. */
+    int n;
+    size_t index;
+    struct listint_s *next;
 } listint_t;
 
 /* These are the func prototypes */
